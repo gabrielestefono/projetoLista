@@ -1,0 +1,24 @@
+@import "../../../styles/variables.module.scss";
+
+.header{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+
+    h1{
+        font-family: $fonteSource;
+        margin-top: 1.25rem;
+        margin-right: 1.25rem;
+        color: $cor-secundaria;
+        font-weight: 900;
+        font-size: 2rem;
+    }
+}
+
+.imagem{
+    width: 13.5625rem;
+    height: 11.5625rem;
+    background-color: red;
+    margin: 0 auto;
+    margin-top: 1.25rem;
+}
