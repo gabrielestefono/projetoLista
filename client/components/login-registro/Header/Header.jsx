@@ -4,7 +4,7 @@ export default function Header(){
     return(
         <>
             <div className={estilo.header}>
-                <h1>WeBest</h1>
+                <a href="/">WeBest</a>
             </div>
         </>
     )

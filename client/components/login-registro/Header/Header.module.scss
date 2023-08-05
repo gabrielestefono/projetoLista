@@ -5,12 +5,13 @@
     display: flex;
     justify-content: flex-end;
 
-    h1{
+    a{
         font-family: $fonteSource;
         margin-top: 1.25rem;
         margin-right: 1.25rem;
         color: $cor-secundaria;
         font-weight: 900;
         font-size: 2rem;
+        text-decoration: none;
     }
 }
