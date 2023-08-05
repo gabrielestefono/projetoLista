@@ -13,13 +13,13 @@ export default function Form(){
                 <div className={estilo.inputspace}>
                     <input type="password" placeholder="Digite sua senha" className={estilo.input}/>
                 </div>
-                <button>Log in</button>
-                <div>
-                    <div></div> Ou <div></div>
+                <button id={estilo.login}>Log in</button>
+                <div className={estilo.sep}>
+                    <div className={estilo.separate1}></div> Ou <div className={estilo.separate1}></div>
                 </div>
-                <button>Registre-se</button>
-                <div></div>
-                <a href="">Esqueceu sua senha?</a>
+                <button id={estilo.register}>Registre-se</button>
+                <div className={estilo.separate2}></div>
+                <a href="" className={estilo.forget}>Esqueceu sua senha?</a>
             </form>
         </>
     )

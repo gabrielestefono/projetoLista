@@ -5,6 +5,9 @@
     font-family: $fonteSource;
     color: $cor-secundaria;
     font-weight: 900;
+    margin: 0 auto;
+    width: 20.9375rem;
+    margin-top: 1.25rem;
 }
 
 .form{
@@ -12,17 +15,22 @@
     display: flex;
     flex-direction: column;
     width: 100vw;
+    align-items: center;
+    margin-top: 1.25rem;
 
     .label{
         font-size: 1rem;
         font-weight: 900;
         color: $cor-secundaria;
+        width: 20.9375rem;
+        margin-top: 1.25rem;
     }
 
     .inputspace{
         width: 20.9375rem;
         height: 3rem;
         position: relative;
+        margin-top: 1.25rem;
 
         &::before{
             content: "";
@@ -61,4 +69,61 @@
             }
         }
     }
+    
+    #login, #register{
+        width: 20.9375rem;
+        height: 3.5rem;
+        border: none;
+        border-radius: .25rem;
+        font-family: $fonteSource;
+        margin-top: 1.25rem;
+    }
+
+    #login{
+        background-color: $cor-primaria;
+        color: white;
+        font-size: 1.125rem;
+        font-weight: 900;
+    }
+
+    .sep{
+        display: flex;
+        align-items: center;
+        width: 20.9375rem;
+        justify-content: space-between;
+        font-size: 1rem;
+        font-weight: 600;
+        color: $cor-secundaria;
+        margin-top: 1.25rem;
+    }
+
+    .separate1{
+        width: 9.0625rem;
+        height: 1px;
+        background-color: $cor-secundaria;
+    }
+
+    #register{
+        background-color: $cor-secundaria;
+        color: white;
+        font-size: 1.125rem;
+        font-weight: 900;
+    }
+
+    .separate2{
+        width: 20.9375rem;
+        height: 1px;
+        background-color: $cor-secundaria;
+    }
+
+    .forget{
+        width: 20.9375rem;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 600;
+        color: $cor-secundaria;
+        text-decoration: none;
+        margin-top: 1.25rem;
+    }
+
 }
