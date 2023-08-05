@@ -1,0 +1,57 @@
+@import "../../../styles/variables.module.scss";
+
+.footer{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+
+    .sep{
+        display: flex;
+        margin-top: 1.25rem;
+        width: 20.9375rem;
+        justify-content: space-between;
+        align-items: center;
+        color: $cor-secundaria;
+        font-size: 1rem;
+        font-weight: 600;
+        font-family: $fonteSource;
+    }
+    
+    .separate1{
+        width: 9.0625rem;
+        height: 1px;
+        background-color: $cor-secundaria;
+    }
+    
+    #register{
+        width: 20.9375rem;
+        height: 3.5rem;
+        border: none;
+        border-radius: .25rem;
+        font-family: $fonteSource;
+        margin-top: 1.25rem;
+        background-color: $cor-secundaria;
+        color: white;
+        font-size: 1.125rem;
+        font-weight: 900;
+    }
+    
+    .separate2{
+        width: 20.9375rem;
+        height: 1px;
+        background-color: $cor-secundaria;
+    }
+    
+    .forget{
+        width: 20.9375rem;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 600;
+        color: $cor-secundaria;
+        text-decoration: none;
+        margin-top: 1.25rem;
+        margin-bottom: 4rem;
+        font-family: $fonteSource;
+    }
+}

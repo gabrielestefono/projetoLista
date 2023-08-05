@@ -6,9 +6,6 @@ export default function Header(){
             <div className={estilo.header}>
                 <h1>WeBest</h1>
             </div>
-            <div className={estilo.imagem}>
-                <div></div>
-            </div>
         </>
     )
 }

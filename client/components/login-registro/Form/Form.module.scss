@@ -1,5 +1,13 @@
 @import "../../../styles/variables.module.scss";
 
+.imagem{
+    width: 13.5625rem;
+    height: 11.5625rem;
+    background-color: red;
+    margin: 0 auto;
+    margin-top: 1.25rem;
+}
+
 .titulo{
     font-size: 2rem;
     font-family: $fonteSource;
@@ -70,7 +78,7 @@
         }
     }
     
-    #login, #register{
+    #login{
         width: 20.9375rem;
         height: 3.5rem;
         border: none;
@@ -84,46 +92,6 @@
         color: white;
         font-size: 1.125rem;
         font-weight: 900;
-    }
-
-    .sep{
-        display: flex;
-        align-items: center;
-        width: 20.9375rem;
-        justify-content: space-between;
-        font-size: 1rem;
-        font-weight: 600;
-        color: $cor-secundaria;
-        margin-top: 1.25rem;
-    }
-
-    .separate1{
-        width: 9.0625rem;
-        height: 1px;
-        background-color: $cor-secundaria;
-    }
-
-    #register{
-        background-color: $cor-secundaria;
-        color: white;
-        font-size: 1.125rem;
-        font-weight: 900;
-    }
-
-    .separate2{
-        width: 20.9375rem;
-        height: 1px;
-        background-color: $cor-secundaria;
-    }
-
-    .forget{
-        width: 20.9375rem;
-        text-align: center;
-        font-size: 1rem;
-        font-weight: 600;
-        color: $cor-secundaria;
-        text-decoration: none;
-        margin-top: 1.25rem;
     }
 
 }
