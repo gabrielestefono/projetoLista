@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "js-cookie": "^3.0.5",
     "next": "13.4.12",
+    "next-connect": "^1.0.0",
+    "next-universal-cookie": "^3.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass": "^1.64.1"
+    "sass": "^1.64.1",
+    "universal-cookie": "^4.0.4"
   }
 }

@@ -1,8 +1,8 @@
 <?php
 
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Route;
 
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\RegistroController as Registrar;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -14,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
+
+Route::group(['middleware' => 'api'], function () {
+Route::get('/csrf-token', function () {$token = csrf_token(); $session = request()->cookie('laravel_session');return response()->json(['token' => $token/*, "session" => $session*/]);});
+    Route::post('/register', [Registrar::class, 'register']);
 });
